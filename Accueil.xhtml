@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Accueil</title>
+    <link href="./Pages_libres/Styles/Accueil.css" rel="stylesheet"   />
+    <link rel="stylesheet" type="text/css" href="./Pages_libres/Styles/print.css" charset="utf-8" media="print"/>
+
+</head>
+
+<header>
+
+<div class="T">
+
+  <div id="T1" class="T_1">
+    Ici se trouve le la page imposée
+    <br/> comportant le livre imposé.
+  </div>
+
+  <div id="T2" class="T_2">
+    Ici se trouve la page libre comportant une présentation <br/>
+    du projet ainsi qu'une galerie de personnages.
+  </div>
+
+</div>
+
+</header>
+
+<body>
+
+<ul>
+
+	<li><a class="text water--effect" href="./Page_imposee/Livre_Choisi/livre.xhtml" id="P1" onmouseover="T1()">PAGE IMPOSEE</a></li>
+  <li><a class='text text--glitch' href="./Pages_libres/3_connexion.xhtml">CONNEXION </a></li>
+	<li><a class="text water--effect" href="./Pages_libres/1_presentation.xhtml" id="P2" onmouseover="T2()">PAGE LIBRE </a></li>
+
+</ul>
+
+</body>
+
+<footer>
+
+      <div class="svg-wrapper">
+        <svg height="100" width="650" xmlns="http://www.w3.org/2000/svg">
+          <rect id="shape" height="100" width="650" />
+            <text class="text--creator" text-anchor="middle"
+          x="50%"
+          y="50%"
+          dy=".35em"
+          style="fill:white;stroke:none;
+          font-size:30pt;
+          font-family:'';
+          ">
+      Made by Q. Michelix and L. Boussez
+    </text>
+        </svg>
+      </div>
+
+
+      <nav class="fleches">
+        <a href="./Page_imposee/Livre_Choisi/livre.xhtml"><img src="./Pages_libres/Images/.png"/></a>
+        <a href="./Pages_libres/3_connexion.xhtml"><img src="./Pages_libres/Images/.png"/></a>
+        <a href="./Pages_libres/1_presentation.xhtml"><img src="./Pages_libres/Images/.png"/></a>
+      </nav>
+
+</footer>
+
+<script>
+
+ function T1(){
+   document.getElementById('T1').style.opacity = '1';
+  }
+ function T2(){
+   document.getElementById('T2').style.opacity = '1';
+ }
+
+</script>
+
+</html>
